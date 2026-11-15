@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <inset
+            android:insetTop="14dp"
+            android:insetBottom="14dp">
+            <shape android:shape="rectangle">
+                <corners android:radius="2dp" />
+                <solid android:color="@color/seek_track" />
+            </shape>
+        </inset>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <inset
+                android:insetTop="14dp"
+                android:insetBottom="14dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="2dp" />
+                    <solid android:color="@color/seek_progress" />
+                </shape>
+            </inset>
+        </clip>
+    </item>
+</layer-list>

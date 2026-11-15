@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Player</string>
+    <string name="app_tagline">ローカル動画ライブラリ</string>
+
+    <!-- Library sections -->
+    <string name="section_library">ライブラリ</string>
+    <string name="section_folders">フォルダー</string>
+    <string name="section_options">オプション</string>
+    <string name="all_videos">すべての動画</string>
+    <string name="recent_played">最近再生した動画</string>
+    <string name="recorded_videos">録画した動画</string>
+    <string name="my_favorite">お気に入り</string>
+    <string name="folders">フォルダー</string>
+
+    <!-- Sidebar actions -->
+    <string name="sort_by_name">並べ替え: 名前</string>
+    <string name="sort_by_size">並べ替え: サイズ</string>
+    <string name="sort_by_date">並べ替え: 日付</string>
+    <string name="order_ascending">順序: 昇順</string>
+    <string name="order_descending">順序: 降順</string>
+    <string name="rescan_library">ライブラリを再スキャン</string>
+    <string name="settings">設定</string>
+    <string name="about">このアプリについて</string>
+    <string name="exit">終了</string>
+
+    <!-- Search -->
+    <string name="search">検索</string>
+    <string name="search_hint">動画を検索</string>
+    <string name="search_results">「%1$s」の検索結果</string>
+    <string name="no_search_results">「%1$s」の検索結果はありません</string>
+    <string name="about_message">Video Player は Android TV 向けのローカルメディアプレーヤーです。\n\nライブラリの閲覧、動画の並べ替え、お気に入りの保存、続きからの再生、再生方法の選択ができます。アプリは Material Design を使用しています。\n\nリモコン: OK で再生/一時停止、左右で 10 秒シーク、上でコントロールを表示、戻るでコントロールを閉じるかプレーヤーを終了します。</string>
+
+    <!-- States -->
+    <string name="loading_library">ストレージをスキャンしています…</string>
+    <string name="empty_library">このセクションに動画が見つかりません</string>
+    <string name="empty_library_hint">デバイスまたは接続した USB ドライブに動画をコピーし、[ライブラリを再スキャン] を選択してください</string>
+    <string name="permission_needed">動画を一覧表示するにはストレージへのアクセスが必要です</string>
+    <string name="video_count">%1$d 本の動画</string>
+    <string name="one_video_count">1 本の動画</string>
+    <string name="no_videos_count">動画なし</string>
+    <string name="duration_unknown">--:--</string>
+
+    <!-- Player -->
+    <string name="player_title_unknown">タイトル不明</string>
+    <string name="play">再生</string>
+    <string name="pause">一時停止</string>
+    <string name="rewind">10 秒戻す</string>
+    <string name="fast_forward">10 秒進める</string>
+    <string name="previous_video">前の動画</string>
+    <string name="next_video">次の動画</string>
+    <string name="subtitles">字幕</string>
+    <string name="audio_track">音声トラック</string>
+    <string name="aspect_ratio">画面比率</string>
+    <string name="play_mode">再生モード</string>
+    <string name="add_favorite">お気に入りに追加</string>
+    <string name="remove_favorite">お気に入りから削除</string>
+    <string name="favorite_added">お気に入りに追加しました</string>
+    <string name="favorite_removed">お気に入りから削除しました</string>
+    <string name="video_info">動画情報</string>
+    <string name="player_options">オプション</string>
+    <string name="buffering">読み込み中…</string>
+    <string name="playback_error">この動画は再生できません</string>
+    <string name="playback_error_hint">戻るを押してライブラリに戻るか、別のファイルをお試しください。</string>
+    <string name="seek_forward">+%1$s</string>
+    <string name="seek_back">−%1$s</string>
+    <string name="menu_option_off">オフ</string>
+    <string name="menu_option_auto">自動</string>
+    <string name="menu_option_default">デフォルト</string>
+    <string name="aspect_fit">画面に合わせる</string>
+    <string name="aspect_stretch">全画面に引き伸ばす</string>
+    <string name="aspect_crop">全画面に切り抜く</string>
+    <string name="mode_once">1 回再生</string>
+    <string name="mode_sequence">順番に再生</string>
+    <string name="mode_repeat_all">すべて繰り返す</string>
+    <string name="mode_repeat_one">1 本を繰り返す</string>
+    <string name="mode_random">ランダム再生</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">キャンセル</string>
+    <string name="info_title">タイトル</string>
+    <string name="info_path">ファイル</string>
+    <string name="info_resolution">解像度</string>
+    <string name="info_duration">再生時間</string>
+    <string name="info_size">サイズ</string>
+    <string name="info_audio">音声</string>
+    <string name="info_subtitles">字幕</string>
+    <string name="info_none">なし</string>
+
+    <!-- Settings screen -->
+    <string name="settings_category_library">ライブラリ</string>
+    <string name="settings_category_about">このアプリについて</string>
+    <string name="settings_sort">動画の並べ替え</string>
+    <string name="settings_order">順序</string>
+    <string name="settings_sort_name">名前</string>
+    <string name="settings_sort_size">サイズ</string>
+    <string name="settings_sort_date">更新日時</string>
+    <string name="settings_order_ascending">昇順</string>
+    <string name="settings_order_descending">降順</string>
+    <string name="settings_rescan_summary">デバイスと USB ドライブで新しい動画を検索します</string>
+    <string name="settings_about_summary">バージョンとリモコンのヘルプ</string>
+    <string name="settings_exit_summary">Video Player を終了</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_welcome">Video Player へようこそ</string>
+    <string name="onboarding_description_welcome">デバイスや USB ドライブの動画を大画面で再生できます。ライブラリを見たり、前回の続きから再生したり、お気に入りを保存したりできます。</string>
+    <string name="onboarding_title_storage">ストレージへのアクセスを許可</string>
+    <string name="onboarding_description_storage">Video Player がこのデバイスに保存された動画を読み取るには許可が必要です。動画がアップロードされたり共有されたりすることはありません。アクセスを許可して続行してください。</string>
+    <string name="onboarding_permission_title">ストレージへのアクセスが必要です</string>
+    <string name="onboarding_permission_message">ストレージへのアクセスがないと、Video Player は動画を一覧表示したり再生したりできません。もう一度お試しいただくか、アプリの設定で許可を有効にしてください。</string>
+    <string name="onboarding_grant_again">再試行</string>
+    <string name="onboarding_open_settings">アプリの設定</string>
+</resources>

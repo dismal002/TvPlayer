@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape android:shape="oval">
+            <gradient
+                android:centerColor="@color/vp_play_glow_focus"
+                android:endColor="@color/vp_play_glow_transparent"
+                android:gradientRadius="48dp"
+                android:startColor="@color/vp_play_glow_focus"
+                android:type="radial" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <gradient
+                android:centerColor="@color/vp_play_glow_press"
+                android:endColor="@color/vp_play_glow_transparent"
+                android:gradientRadius="48dp"
+                android:startColor="@color/vp_play_glow_press"
+                android:type="radial" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_category_library">
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/settings_sort_entries"
+            android:entryValues="@array/settings_sort_values"
+            android:icon="@drawable/ic_sort"
+            android:key="settings_sort"
+            android:summary="%s"
+            android:title="@string/settings_sort" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/settings_order_entries"
+            android:entryValues="@array/settings_order_values"
+            android:icon="@drawable/ic_order"
+            android:key="settings_order"
+            android:summary="%s"
+            android:title="@string/settings_order" />
+
+        <Preference
+            android:icon="@drawable/ic_refresh"
+            android:key="settings_rescan"
+            android:summary="@string/settings_rescan_summary"
+            android:title="@string/rescan_library" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_category_about">
+
+        <Preference
+            android:icon="@drawable/ic_info"
+            android:key="settings_about"
+            android:summary="@string/settings_about_summary"
+            android:title="@string/about" />
+
+        <Preference
+            android:icon="@drawable/ic_exit"
+            android:key="settings_exit"
+            android:summary="@string/settings_exit_summary"
+            android:title="@string/exit" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

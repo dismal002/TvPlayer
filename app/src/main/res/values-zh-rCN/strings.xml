@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Player</string>
+    <string name="app_tagline">本地视频库</string>
+
+    <!-- Library sections -->
+    <string name="section_library">媒体库</string>
+    <string name="section_folders">文件夹</string>
+    <string name="section_options">选项</string>
+    <string name="all_videos">所有视频</string>
+    <string name="recent_played">最近播放</string>
+    <string name="recorded_videos">录制视频</string>
+    <string name="my_favorite">我的收藏</string>
+    <string name="folders">文件夹</string>
+
+    <!-- Sidebar actions -->
+    <string name="sort_by_name">排序：名称</string>
+    <string name="sort_by_size">排序：大小</string>
+    <string name="sort_by_date">排序：日期</string>
+    <string name="order_ascending">顺序：递增</string>
+    <string name="order_descending">顺序：递减</string>
+    <string name="rescan_library">重新扫描媒体库</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+
+    <!-- Search -->
+    <string name="search">搜索</string>
+    <string name="search_hint">搜索视频</string>
+    <string name="search_results">“%1$s”的搜索结果</string>
+    <string name="no_search_results">未找到“%1$s”的结果</string>
+    <string name="about_message">Video Player 是一款适用于 Android TV 的本地媒体播放器。\n\n你可以浏览媒体库、排序视频、收藏视频、从上次停下的地方继续播放，并选择播放方式。应用采用 Material Design。\n\n遥控器：OK 播放或暂停，左/右快退或快进 10 秒，上方向键打开控制栏，返回键关闭控制栏或退出播放器。</string>
+
+    <!-- States -->
+    <string name="loading_library">正在扫描存储空间…</string>
+    <string name="empty_library">此分区中没有找到视频</string>
+    <string name="empty_library_hint">将视频复制到设备或已挂载的 USB 驱动器，然后选择“重新扫描媒体库”</string>
+    <string name="permission_needed">需要存储权限才能列出你的视频</string>
+    <string name="video_count">%1$d 个视频</string>
+    <string name="one_video_count">1 个视频</string>
+    <string name="no_videos_count">没有视频</string>
+    <string name="duration_unknown">--:--</string>
+
+    <!-- Player -->
+    <string name="player_title_unknown">未知标题</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="rewind">快退 10 秒</string>
+    <string name="fast_forward">快进 10 秒</string>
+    <string name="previous_video">上一个视频</string>
+    <string name="next_video">下一个视频</string>
+    <string name="subtitles">字幕</string>
+    <string name="audio_track">音轨</string>
+    <string name="aspect_ratio">画面比例</string>
+    <string name="play_mode">播放模式</string>
+    <string name="add_favorite">添加到收藏</string>
+    <string name="remove_favorite">从收藏中移除</string>
+    <string name="favorite_added">已添加到我的收藏</string>
+    <string name="favorite_removed">已从我的收藏中移除</string>
+    <string name="video_info">视频信息</string>
+    <string name="player_options">选项</string>
+    <string name="buffering">正在缓冲…</string>
+    <string name="playback_error">无法播放此视频</string>
+    <string name="playback_error_hint">按返回键回到媒体库，或尝试其他文件。</string>
+    <string name="seek_forward">+%1$s</string>
+    <string name="seek_back">−%1$s</string>
+    <string name="menu_option_off">关闭</string>
+    <string name="menu_option_auto">自动</string>
+    <string name="menu_option_default">默认</string>
+    <string name="aspect_fit">适应屏幕</string>
+    <string name="aspect_stretch">拉伸填满</string>
+    <string name="aspect_crop">裁剪填满</string>
+    <string name="mode_once">播放一次</string>
+    <string name="mode_sequence">顺序播放</string>
+    <string name="mode_repeat_all">全部循环</string>
+    <string name="mode_repeat_one">单个循环</string>
+    <string name="mode_random">随机播放</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="info_title">标题</string>
+    <string name="info_path">文件</string>
+    <string name="info_resolution">分辨率</string>
+    <string name="info_duration">时长</string>
+    <string name="info_size">大小</string>
+    <string name="info_audio">音频</string>
+    <string name="info_subtitles">字幕</string>
+    <string name="info_none">无</string>
+
+    <!-- Settings screen -->
+    <string name="settings_category_library">媒体库</string>
+    <string name="settings_category_about">关于</string>
+    <string name="settings_sort">视频排序方式</string>
+    <string name="settings_order">顺序</string>
+    <string name="settings_sort_name">名称</string>
+    <string name="settings_sort_size">大小</string>
+    <string name="settings_sort_date">修改日期</string>
+    <string name="settings_order_ascending">递增</string>
+    <string name="settings_order_descending">递减</string>
+    <string name="settings_rescan_summary">在设备和 USB 驱动器中搜索新视频</string>
+    <string name="settings_about_summary">版本和遥控器帮助</string>
+    <string name="settings_exit_summary">关闭 Video Player</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_welcome">欢迎使用 Video Player</string>
+    <string name="onboarding_description_welcome">在大屏幕上播放设备或 USB 驱动器中的视频。浏览媒体库、从上次停下的地方继续播放，并保留你的收藏。</string>
+    <string name="onboarding_title_storage">允许访问存储空间</string>
+    <string name="onboarding_description_storage">Video Player 需要权限才能读取此设备上存储的视频。你的视频绝不会被上传或共享。允许访问以继续。</string>
+    <string name="onboarding_permission_title">需要存储权限</string>
+    <string name="onboarding_permission_message">没有存储权限，Video Player 无法列出或播放你的视频。请重试，或在应用设置中启用该权限。</string>
+    <string name="onboarding_grant_again">重试</string>
+    <string name="onboarding_open_settings">应用设置</string>
+</resources>

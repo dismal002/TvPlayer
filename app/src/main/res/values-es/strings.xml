@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Player</string>
+    <string name="app_tagline">Biblioteca de vídeos local</string>
+
+    <!-- Library sections -->
+    <string name="section_library">BIBLIOTECA</string>
+    <string name="section_folders">CARPETAS</string>
+    <string name="section_options">OPCIONES</string>
+    <string name="all_videos">Todos los vídeos</string>
+    <string name="recent_played">Recientes</string>
+    <string name="recorded_videos">Vídeos grabados</string>
+    <string name="my_favorite">Mis favoritos</string>
+    <string name="folders">Carpetas</string>
+
+    <!-- Sidebar actions -->
+    <string name="sort_by_name">Ordenar: nombre</string>
+    <string name="sort_by_size">Ordenar: tamaño</string>
+    <string name="sort_by_date">Ordenar: fecha</string>
+    <string name="order_ascending">Orden: ascendente</string>
+    <string name="order_descending">Orden: descendente</string>
+    <string name="rescan_library">Analizar de nuevo</string>
+    <string name="settings">Ajustes</string>
+    <string name="about">Acerca de</string>
+    <string name="exit">Salir</string>
+
+    <!-- Search -->
+    <string name="search">Buscar</string>
+    <string name="search_hint">Buscar vídeos</string>
+    <string name="search_results">Resultados de “%1$s”</string>
+    <string name="no_search_results">No hay resultados para “%1$s”</string>
+    <string name="about_message">Video Player es un reproductor multimedia local para Android TV.\n\nExplora tu biblioteca, ordena los vídeos, guarda favoritos, continúa donde lo dejaste y elige cómo se reproduce el contenido. La aplicación usa Material Design.\n\nMando: OK reproduce o pausa, izquierda/derecha avanza o retrocede 10 segundos, arriba abre los controles y atrás los cierra o sale del reproductor.</string>
+
+    <!-- States -->
+    <string name="loading_library">Analizando el almacenamiento…</string>
+    <string name="empty_library">No se han encontrado vídeos en esta sección</string>
+    <string name="empty_library_hint">Copia vídeos en el dispositivo o en una unidad USB conectada y elige Analizar de nuevo</string>
+    <string name="permission_needed">Se necesita acceso al almacenamiento para mostrar tus vídeos</string>
+    <string name="video_count">%1$d vídeos</string>
+    <string name="one_video_count">1 vídeo</string>
+    <string name="no_videos_count">No hay vídeos</string>
+    <string name="duration_unknown">--:--</string>
+
+    <!-- Player -->
+    <string name="player_title_unknown">Título desconocido</string>
+    <string name="play">Reproducir</string>
+    <string name="pause">Pausa</string>
+    <string name="rewind">Retroceder 10 segundos</string>
+    <string name="fast_forward">Avanzar 10 segundos</string>
+    <string name="previous_video">Vídeo anterior</string>
+    <string name="next_video">Vídeo siguiente</string>
+    <string name="subtitles">Subtítulos</string>
+    <string name="audio_track">Pista de audio</string>
+    <string name="aspect_ratio">Relación de aspecto</string>
+    <string name="play_mode">Modo de reproducción</string>
+    <string name="add_favorite">Añadir a favoritos</string>
+    <string name="remove_favorite">Quitar de favoritos</string>
+    <string name="favorite_added">Añadido a Mis favoritos</string>
+    <string name="favorite_removed">Eliminado de Mis favoritos</string>
+    <string name="video_info">Información del vídeo</string>
+    <string name="player_options">Opciones</string>
+    <string name="buffering">Cargando…</string>
+    <string name="playback_error">No se puede reproducir este vídeo</string>
+    <string name="playback_error_hint">Pulsa atrás para volver a la biblioteca o prueba con otro archivo.</string>
+    <string name="seek_forward">+%1$s</string>
+    <string name="seek_back">−%1$s</string>
+    <string name="menu_option_off">Desactivado</string>
+    <string name="menu_option_auto">Automático</string>
+    <string name="menu_option_default">Predeterminado</string>
+    <string name="aspect_fit">Ajustar a la pantalla</string>
+    <string name="aspect_stretch">Estirar para llenar</string>
+    <string name="aspect_crop">Recortar para llenar</string>
+    <string name="mode_once">Reproducir una vez</string>
+    <string name="mode_sequence">Reproducción en secuencia</string>
+    <string name="mode_repeat_all">Repetir todo</string>
+    <string name="mode_repeat_one">Repetir uno</string>
+    <string name="mode_random">Reproducción aleatoria</string>
+    <string name="dialog_ok">Aceptar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="info_title">Título</string>
+    <string name="info_path">Archivo</string>
+    <string name="info_resolution">Resolución</string>
+    <string name="info_duration">Duración</string>
+    <string name="info_size">Tamaño</string>
+    <string name="info_audio">Audio</string>
+    <string name="info_subtitles">Subtítulos</string>
+    <string name="info_none">Ninguno</string>
+
+    <!-- Settings screen -->
+    <string name="settings_category_library">Biblioteca</string>
+    <string name="settings_category_about">Acerca de</string>
+    <string name="settings_sort">Ordenar vídeos por</string>
+    <string name="settings_order">Orden</string>
+    <string name="settings_sort_name">Nombre</string>
+    <string name="settings_sort_size">Tamaño</string>
+    <string name="settings_sort_date">Fecha de modificación</string>
+    <string name="settings_order_ascending">Ascendente</string>
+    <string name="settings_order_descending">Descendente</string>
+    <string name="settings_rescan_summary">Busca vídeos nuevos en el dispositivo y las unidades USB</string>
+    <string name="settings_about_summary">Versión y ayuda del mando</string>
+    <string name="settings_exit_summary">Cerrar Video Player</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_welcome">Te damos la bienvenida a Video Player</string>
+    <string name="onboarding_description_welcome">Reproduce vídeos del dispositivo o de una unidad USB en la pantalla grande. Explora tu biblioteca, continúa donde lo dejaste y guarda tus favoritos.</string>
+    <string name="onboarding_title_storage">Permite el acceso al almacenamiento</string>
+    <string name="onboarding_description_storage">Video Player necesita permiso para leer los vídeos guardados en este dispositivo. Tus vídeos nunca se suben ni se comparten. Permite el acceso para continuar.</string>
+    <string name="onboarding_permission_title">Se necesita acceso al almacenamiento</string>
+    <string name="onboarding_permission_message">Sin acceso al almacenamiento, Video Player no puede mostrar ni reproducir tus vídeos. Inténtalo de nuevo o activa el permiso en los ajustes de la aplicación.</string>
+    <string name="onboarding_grant_again">Reintentar</string>
+    <string name="onboarding_open_settings">Ajustes de la aplicación</string>
+</resources>

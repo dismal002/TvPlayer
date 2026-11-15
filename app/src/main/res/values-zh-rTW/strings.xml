@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Player</string>
+    <string name="app_tagline">本機影片庫</string>
+
+    <!-- Library sections -->
+    <string name="section_library">媒體庫</string>
+    <string name="section_folders">資料夾</string>
+    <string name="section_options">選項</string>
+    <string name="all_videos">所有影片</string>
+    <string name="recent_played">最近播放</string>
+    <string name="recorded_videos">錄製影片</string>
+    <string name="my_favorite">我的最愛</string>
+    <string name="folders">資料夾</string>
+
+    <!-- Sidebar actions -->
+    <string name="sort_by_name">排序：名稱</string>
+    <string name="sort_by_size">排序：大小</string>
+    <string name="sort_by_date">排序：日期</string>
+    <string name="order_ascending">順序：遞增</string>
+    <string name="order_descending">順序：遞減</string>
+    <string name="rescan_library">重新掃描媒體庫</string>
+    <string name="settings">設定</string>
+    <string name="about">關於</string>
+    <string name="exit">結束</string>
+
+    <!-- Search -->
+    <string name="search">搜尋</string>
+    <string name="search_hint">搜尋影片</string>
+    <string name="search_results">「%1$s」的搜尋結果</string>
+    <string name="no_search_results">找不到「%1$s」的結果</string>
+    <string name="about_message">Video Player 是適用於 Android TV 的本機媒體播放器。\n\n你可以瀏覽媒體庫、排序影片、加入我的最愛、從上次中斷處繼續播放，並選擇播放方式。應用程式採用 Material Design。\n\n遙控器：OK 可播放或暫停，左/右可倒轉或快轉 10 秒，上可開啟控制列，返回可關閉控制列或離開播放器。</string>
+
+    <!-- States -->
+    <string name="loading_library">正在掃描儲存空間…</string>
+    <string name="empty_library">此分類中找不到影片</string>
+    <string name="empty_library_hint">將影片複製到裝置或已掛載的 USB 磁碟機，然後選擇「重新掃描媒體庫」</string>
+    <string name="permission_needed">需要儲存空間存取權才能列出你的影片</string>
+    <string name="video_count">%1$d 部影片</string>
+    <string name="one_video_count">1 部影片</string>
+    <string name="no_videos_count">沒有影片</string>
+    <string name="duration_unknown">--:--</string>
+
+    <!-- Player -->
+    <string name="player_title_unknown">未知標題</string>
+    <string name="play">播放</string>
+    <string name="pause">暫停</string>
+    <string name="rewind">倒轉 10 秒</string>
+    <string name="fast_forward">快轉 10 秒</string>
+    <string name="previous_video">上一部影片</string>
+    <string name="next_video">下一部影片</string>
+    <string name="subtitles">字幕</string>
+    <string name="audio_track">音訊軌</string>
+    <string name="aspect_ratio">畫面比例</string>
+    <string name="play_mode">播放模式</string>
+    <string name="add_favorite">加入我的最愛</string>
+    <string name="remove_favorite">從我的最愛移除</string>
+    <string name="favorite_added">已加入我的最愛</string>
+    <string name="favorite_removed">已從我的最愛移除</string>
+    <string name="video_info">影片資訊</string>
+    <string name="player_options">選項</string>
+    <string name="buffering">緩衝中…</string>
+    <string name="playback_error">無法播放此影片</string>
+    <string name="playback_error_hint">按返回鍵回到媒體庫，或試試其他檔案。</string>
+    <string name="seek_forward">+%1$s</string>
+    <string name="seek_back">−%1$s</string>
+    <string name="menu_option_off">關閉</string>
+    <string name="menu_option_auto">自動</string>
+    <string name="menu_option_default">預設</string>
+    <string name="aspect_fit">符合畫面</string>
+    <string name="aspect_stretch">拉伸填滿</string>
+    <string name="aspect_crop">裁切填滿</string>
+    <string name="mode_once">播放一次</string>
+    <string name="mode_sequence">依序播放</string>
+    <string name="mode_repeat_all">全部重複</string>
+    <string name="mode_repeat_one">重複單部</string>
+    <string name="mode_random">隨機播放</string>
+    <string name="dialog_ok">確定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="info_title">標題</string>
+    <string name="info_path">檔案</string>
+    <string name="info_resolution">解析度</string>
+    <string name="info_duration">長度</string>
+    <string name="info_size">大小</string>
+    <string name="info_audio">音訊</string>
+    <string name="info_subtitles">字幕</string>
+    <string name="info_none">無</string>
+
+    <!-- Settings screen -->
+    <string name="settings_category_library">媒體庫</string>
+    <string name="settings_category_about">關於</string>
+    <string name="settings_sort">影片排序方式</string>
+    <string name="settings_order">順序</string>
+    <string name="settings_sort_name">名稱</string>
+    <string name="settings_sort_size">大小</string>
+    <string name="settings_sort_date">修改日期</string>
+    <string name="settings_order_ascending">遞增</string>
+    <string name="settings_order_descending">遞減</string>
+    <string name="settings_rescan_summary">在裝置與 USB 磁碟機中搜尋新影片</string>
+    <string name="settings_about_summary">版本與遙控器說明</string>
+    <string name="settings_exit_summary">關閉 Video Player</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_welcome">歡迎使用 Video Player</string>
+    <string name="onboarding_description_welcome">在大螢幕上播放裝置或 USB 磁碟機中的影片。瀏覽媒體庫、從上次中斷處繼續播放，並保留你的最愛。</string>
+    <string name="onboarding_title_storage">允許存取儲存空間</string>
+    <string name="onboarding_description_storage">Video Player 需要權限才能讀取此裝置上儲存的影片。你的影片絕不會被上傳或分享。請允許存取以繼續。</string>
+    <string name="onboarding_permission_title">需要儲存空間權限</string>
+    <string name="onboarding_permission_message">沒有儲存空間權限，Video Player 無法列出或播放你的影片。請再試一次，或在應用程式設定中啟用此權限。</string>
+    <string name="onboarding_grant_again">再試一次</string>
+    <string name="onboarding_open_settings">應用程式設定</string>
+</resources>
